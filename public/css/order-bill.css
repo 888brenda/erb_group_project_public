@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+    background-color: antiquewhite;
+}
+#header {
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(136,107,98);
+    padding: 0.5em 1em;
+    color: wheat;
+}
+.shop-name {
+    text-align: center;
+    font-size: x-large;
+    font-weight: 600;
+}
+.title-bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-decoration: none;
+}
+.go-last-page {
+    font-size: medium;
+}
+.go-last-page a{
+    text-decoration: none;
+}
+.menu {
+    text-align: center;
+    font-size: medium;
+}
+/* .go-shop-cart-img {
+    text-align: right;
+}
+.go-shop-cart-img img {
+    height: 1.7em;
+    width: 1.7em;
+    color: wheat !important;
+} */
+
+/* select food */
+#section {
+    height: 100%;
+    width: 100%;
+    padding: 2%;
+}
+h5 {
+    flex: 1;
+    font-size: medium;
+}
+.item-name {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: small;
+    font-weight: 600;
+    border-bottom: 1px solid grey;
+}
+.item-name .name,
+.item-selected-bill .name {
+    width: 60%;
+
+    justify-content: flex-start;
+}
+.item-name .quantity,
+.item-selected-bill .quantity {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item-name .item-subTotal,
+.item-selected-bill .price {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.card {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin: 1rem 0 1rem 0;
+}
+.item-selected-bill {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: medium;
+    font-weight: 500;
+    margin: 0.5rem 0 0.5rem 0;
+}
+.total-calculation {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    flex-direction: column;
+    border-top: 0.3px dashed grey;
+    font-size: larger;
+    margin-bottom: 1rem;
+    border-bottom: 0.3px double grey;
+    font-size: large;
+    font-weight: 700;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.total-calculation .discount {
+    border-bottom: 0.3px double grey;
+}
+.total-calculation .total {
+    font-size: x-large;
+}
+.next-step-section {
+    height: fit-content;
+    width: 100%;
+    padding: 1rem;
+}
+
+.next-step {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+}
+button {
+    width: 5.5rem;
+    background-color: rgb(136,107,98);
+    color: wheat;
+    border-style: groove;
+    border: none;
+    float:right;
+    text-align: center;
+}
+/* button a {
+    text-decoration: none;
+    color: wheat;
+    cursor: pointer; 
+} */
+button:hover {
+    background-color: white;
+    color: rgb(136,107,98);
+    border: 0.5px solid rgb(136,107,98);
+}
+.pay-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: inherit;
+    padding: 3%
+}
+.pay-img img {
+    width: 3rem;
+    height: inherit;
+}
+.condition {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}

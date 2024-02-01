@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+}
+#header {
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(136,107,98);
+    padding: 0.5em 1em;
+    color: wheat;
+}
+.shop-name {
+    text-align: center;
+    font-size: x-large;
+    font-weight: 600;
+}
+.title-bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-decoration: none;
+}
+.go-last-page {
+    font-size: medium;
+}
+.menu {
+    text-align: center;
+    font-size: medium;
+}
+.go-shop-cart-img {
+    text-align: right;
+    /* float: right; */
+    
+}
+.go-shop-cart-img img {
+    height: 1.7em;
+    width: 1.7em;
+    color: wheat !important;
+}
+/* section */
+#section {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.695);
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+.review-order {
+    background-color: antiquewhite;
+    width: fit-content;
+    height: fit-content;
+    margin: 2rem auto 2rem auto;
+    text-align: center;
+    border: 0.5px solid grey;
+    font-size: large;
+}
+.food-name, .food-price {
+    padding: 2% 2% 2% 5%;
+    font-weight: 600;
+    
+}
+.food-name {
+    height: fit-content;
+}
+.food-image {
+    max-width: 250px;
+    max-height:400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.food-image img{
+    max-width: 250px;
+    max-height:400px;
+} 
+
+.cancelANDconfirm {
+    /* background-color: rgb(240, 187, 88); */
+    width: 100%;
+    height: 2.5rem;
+    font-size: larger;
+    font-weight: 600;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center; 
+}
+.cancelANDconfirm a {
+    text-decoration: none;
+    color: rgba(29, 28, 28, 0.801);
+}
+.cancel {
+    background-color: rgb(204, 190, 190);
+    height: 100%;
+}
+/* .confirm {
+    background-color: rgb(240, 187, 88);
+    height: 100%;
+} */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}

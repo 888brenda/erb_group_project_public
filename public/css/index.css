@@ -1,0 +1,467 @@
+body {
+    /* background-color:rgb(214, 207, 165); */
+    background-color: antiquewhite;
+    margin: 0;
+}
+
+/* section 1 - header (logo, voucher, online-order-tap) */
+.header {
+    margin: 0;
+    display: flex;
+    padding: 0.5rem 3.5rem 0.5rem 3.5rem;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+.logo-section {
+    width: 45vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-pixture {
+    width: 100px;
+    height: 100px;
+    margin-right: 12rem;
+}
+.logo-pixture img {
+    width: 100px;
+    height: 100px;
+}
+.logo-name {
+    align-items: center;
+    margin-left: 0.5rem;
+    min-height: 6em;
+}
+.logo-img {
+    width: 5vw;
+    height: 5vh;
+}
+.logo-name1 {
+    color: rgb(100, 50, 50);
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.logo-name2 {
+    min-width: 4em;
+    max-height: 4em;
+    color: red;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 5rem;
+} 
+.right-header {
+    width: 13vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+.header-voucher {
+    min-width: 90%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(63, 13, 13);
+    font-size: 1.1rem;
+    font-weight: 550;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 0.5rem;
+}
+.order-tap-background {
+    width: fit-content;
+    height: fit-content;
+    background-color: #bd2105;
+}
+.order-tap {
+    min-width: 4em;
+    background-color: #bd2105;
+    color: white;
+    font-size: 1.3em;
+    outline: 2px solid orange;
+    outline-offset: -3px;
+    margin: 5px;
+    padding: 0.5rem;
+}  
+.order-tap a{
+    text-decoration: none;
+}  
+
+/* section 2 - Navbar - information */
+button.navbar-toggler {
+    width: 40px;
+    height: 30px;
+}
+#navbar-menu {
+    width: 100%;
+    height: auto;
+    margin:0;
+    background-color: rgba(41, 2, 2, 0.548);
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 2px 0;
+}
+.navbar-section {
+    width: 100vw;
+    min-height: 6rem;
+    margin:0;
+    border: 1.5px dashed rgb(213, 216, 216);
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.navbar-section span {
+    color: rgb(248, 241, 227);
+    font-size: large;
+    font-weight: 550;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* section 3 - hero */
+#hero {
+    width: 100%;
+    height: auto;
+    margin:0;
+    display: flex;
+    justify-content: center;
+}
+.hero-section {
+    width: 80vw;
+    height: 25rem;
+    min-height: 20rem;
+    margin:0;
+    display: flex;
+    justify-content:right;
+    background-image: url(../image/other-image/hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hero-description {
+    width: 20vw;
+    min-height: 20rem;
+    background-color: rgba(0, 0, 0, 0.438);
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+}
+.hero-description span {
+    margin: 3px;
+    text-align: center;
+}
+.first {
+    font-size: large;
+    font-weight: 600;
+    color:rgb(206, 63, 6);
+
+}
+.second {
+    font-size:xx-large;
+    font-weight:bolder;
+    color:white;
+}
+.third {
+    min-height: 2rem;
+    font-size: x-large;
+    font-weight:700;
+    color:whitesmoke;
+    background-color: rgb(187, 46, 4);
+    padding: 0 1rem;
+    border-radius: 3rem;
+}
+
+/* section 4 - promotion paragraph */
+#promotion-paragraph {
+    width: 100%;
+    height: 5vh;
+    margin:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    word-spacing: 2rem;
+}
+h5 {
+    /* background-color: yellow; */
+    width: 80vw;
+    height: fit-content;
+    min-height: 4rem;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8em;
+    font-weight: 800;
+}
+
+/* section 5 = cards */
+#cards {
+    width: 100%;
+    height: 100%;
+    margin:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.promotion-cards {
+    width: 80vw;
+    height: 12vh;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+}
+.promotion-cards .card {
+    border: 0;
+    outline: 1px dashed rgb(212, 210, 210);
+    outline-offset: -3px;
+    text-align: center;
+}
+.promotion-cards .card:hover {
+    background-color: chartreuse;
+    cursor: pointer;
+    color:blue;
+}
+
+.promotion-cards .card-offer {
+    height: 100%;
+    background-color: rgb(75, 31, 31);
+    color: white;
+    font-size: xx-large;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.promotion-cards .card-rewards {
+    height:100%;
+    background-color: rgb(71, 102, 13);
+    color:white;
+    font-size: x-large;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.promotion-cards .card-save {
+    height: 100%;
+    background-color: rgb(92, 83, 83);
+    color:yellow;
+    font-size: xx-large;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* section 6 - welcome-paragraph */
+#welcome-paragraph {
+    width: 100%;
+    height: 0;
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+h1 {
+    width: 80vw;
+    height: fit-content;
+    min-height: 0;
+    color: brown;
+    font-size: x-large;
+    font-weight: 800;
+}
+#welcome-paragraph h5 {
+    width: 80vw;
+    height: fit-content;
+    min-height: 0;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: small;
+    font-weight: 500;
+    flex-wrap: wrap;
+}
+
+/* #section 7 - social-info  */
+.social-info {
+    height: 30vh;
+    margin-top: 5rem;
+}
+.social-cards {
+    padding: 3em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3rem;
+    background-image: url(../image/other-image/footer.jpg);
+    background-size: cover;
+    min-height: 100px;
+    margin-top: 5rem;
+    box-sizing: border-box;
+}
+.social-cards .card {
+    height: 100%;
+    outline: 1px solid rgb(212, 210, 210);
+    outline-offset: 0px;
+    border-radius: 5px 5px 0 0;
+    background-color: transparent;
+}
+
+.social-cards .card-topic {
+    min-height: 2rem;
+    max-height: 4rem;
+    width: auto;
+    background-color: aliceblue;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    font-size: large;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px 5px 0 0;
+    
+}
+.card-topic.address {
+    font-size: small;
+}
+/* .card-topic.shop-open {
+    height: 2rem;
+} */
+.social-cards .card:hover {
+    /* background-color: chartreuse;
+    cursor: pointer;
+    color:blue; */
+}
+
+.social-cards .card-facebook {
+    /* height:100%; */
+    color:white;
+    font-size: xx-large;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+}
+.bi-facebook {
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(12,84,194) !important;
+}
+.social-cards .card-map {
+    height: 75%;
+    color:white;
+    font-size: x-large;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(96, 94, 94);
+    background-image: url(../image/other-image/address.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bi-geo-alt-fill {
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red !important;
+}
+.social-cards .card-save {
+    height: 80%;
+    padding: 0 1em;
+    color: white;
+    font-size: small;
+    font-weight: 900;
+    /* background: rgba(96, 94, 94, 0.565); */
+}
+.bi-clock {
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(74,60,47)!important;
+}
+#footer {
+    height:fit-content;
+    width: 100%;
+    background-color: rgb(99, 47, 10);
+    position: absolute;
+    bottom: 0;
+}
+.foot-nav-section {
+    width: 100%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem auto;
+}
+.bottom-left {
+    width: 70vw;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: space-between */
+}
+.bottom-left-top {
+    flex-direction: row;
+    color:rgb(179, 135, 135);
+    margin-bottom: 1rem;
+    padding-top:1rem;
+}
+.bottom-left-bottom {
+    flex-direction: row;
+    color:rgb(139, 91, 91);
+    padding-bottom:1rem;
+}
+
+
+.bi-whatsapp {
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: green!important;
+    width: 10vw;
+}
+.bottom-right {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* .bi-whatsapp{
+    width: 30vw;
+} */
+/* 8888888888888888888 */
+
+
+
+
+
+
+/* .btn {
+    font-size: 2rem;
+    font-weight: 700;
+    padding 0.5em 1em;
+    color: var(--clr-accent);
+    background-color: var(--clr-rgba);
+    border: 10px solid var(--clr-accent);
+    border-radius: 5px;
+    transition: transform 0.3s, background-color 0.3 3s, color 0.3s;
+}
+
+.btn:hover {
+    transform: translatey(-10PX);
+    background-color: var(--clr-accent);
+    color: var(--clr-light);
+} */

@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+}
+#header {
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(136,107,98);
+    padding: 0.5em 1em;
+    color: wheat;
+}
+.shop-name {
+    text-align: center;
+    font-size: x-large;
+    font-weight: 600;
+}
+.title-bottom {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr; */
+    text-decoration: none;
+}
+.go-last-page {
+    font-size: medium;
+}
+.menu {
+    text-align: center;
+    font-size: medium;
+}
+/* .go-shop-cart-img {
+    text-align: right;
+}
+.go-shop-cart-img img {
+    height: 1.7em;
+    width: 1.7em;
+    color: wheat !important;
+} */
+/* section */
+#section {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.695);
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+.review-order {
+    background-color: antiquewhite;
+    width: 50vw;
+    height: auto;
+    margin: 2rem auto 2rem auto;
+    text-align: center;
+    border: 0.5px solid grey;
+    font-size: large;
+}
+.game-name, .game-price {
+    padding: 2% 2% 2% 5%;
+    font-weight: 600;
+    font-size: x-large;
+}
+.game-name {
+    height: fit-content;
+}
+.game-image {
+    width: 50vw;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+.game-image img{
+    width: 80%;
+    height: 60%;
+}
+.wheel-img{
+    display: inline-block;
+    animation: rotation 3s infinite linear;
+    animation-duration: 1s;
+    }
+
+    @keyframes rotation {
+    100% {
+        transform: rotate(360deg);
+    }
+    
+    /* 100% {
+        transform: rotate(0deg);
+    } */
+} 
+.start-game-section {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+.start-game-btn button {
+    width: 7rem;
+    height: 3rem;
+    background-color: rgb(136,107,98);
+    border-radius: 5px;
+    color: wheat;
+    border-style: groove;
+    border: none;
+    float:right;
+    text-align: center;
+    font-size: large;
+    font-weight: 600;
+}
+button a {
+    text-decoration: none;
+    color: wheat;
+    cursor: pointer; 
+}
+button:hover {
+    color: white;
+}
+
+.back-or-forth {
+    background-color: rgb(240, 187, 88);
+    width: 100%;
+    height: 2.5rem;
+    font-size: larger;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.back-or-forth a {
+    text-decoration: none;
+    color: rgba(29, 28, 28, 0.801);
+}
+.go-to-last-page {
+    width: 50%;
+    background-color: rgb(204, 190, 190);
+    height: 100%;
+}
+.go-pay {
+    width: 50%;
+    background-color: rgb(240, 187, 88);
+    height: 100%;
+}

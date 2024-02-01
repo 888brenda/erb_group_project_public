@@ -1,0 +1,196 @@
+body{
+    margin: 0;
+    background-color: antiquewhite;
+}
+#header {
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(136,107,98);
+    padding: 0.5em 1em;
+    color: wheat;
+}
+.shop-name {
+    text-align: center;
+    font-size: x-large;
+    font-weight: 600;
+}
+.title-bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-decoration: none;
+}
+.go-last-page {
+    font-size: medium;
+}
+.go-last-page a{
+    text-decoration: none;
+}
+.menu {
+    text-align: center;
+    font-size: medium;
+}
+.go-shop-cart-img {
+    text-align: right;
+    /* float: right; */
+}
+.go-shop-cart-img img {
+    height: 1.7em;
+    width: 1.7em;
+    color: wheat !important;
+}
+
+/* select food */
+#section {
+    height: 100%;
+    width: 100%;
+    padding: 2%;
+    background-color: antiquewhite;
+}
+h5 {
+    flex: 1;
+    font-size: medium;
+}
+
+/* ---------------- */
+ /* item-name-zone */
+/* ---------------- */
+
+/* item-topic */
+.item-name-list {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+}
+.item {
+    width: 100%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.item-name {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    border-bottom: 0.3px solid grey;
+    font-size: small;
+    font-weight: 700;
+    /* padding-left: 4%;
+    padding-right: 4%; */
+}
+
+/* ---------------- */
+ /* food-list-zone */
+/* ---------------- */
+
+.card-list {
+    width: 100%;
+    height: 100%;
+}
+.card {
+    width: 100%;
+}
+.item-selected {
+    width: 100%;
+    display: inline-flex;
+    align-items: flex-start;
+    font-size: small;
+    font-weight: 500;
+    justify-content: space-around;
+    padding: 2%;
+}
+/* 
+food 15%
+name 30%
+quantity 6%
+price 9%
+drink 20%
+soup 11%
+delete unknown
+----------- 
+total 100% 
+*/
+
+.item-name .food,
+.item-selected .food-image {
+    width: 15%;
+}
+.item-selected .food-image img{
+    width: 100%;
+    height: 100%;
+}
+.item-name .name,
+.item-selected .all-name {
+    padding-left: 0.3rem;
+    max-width: 30%;
+    width: 30%
+}
+.item-name .quantity,
+.item-selected .quantity {
+    text-align: center;
+    width: 6%;
+}
+.item-name .price,
+.item-selected .price {
+    text-align: center;
+    width: 9%;
+}
+.item-name .drink,
+.item-selected .drink-list {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.item-name .soup,
+.item-selected .soup-list {
+    text-align: center;
+    width: 11%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.item-name .delete,
+.item-selected .submit-btn-delete {
+    text-align: center;
+    /* width: 8%; */
+    display: flex;
+}
+.item-name .price,
+.item-name .drink,
+.item-name .soup,
+.item-name .delete {
+    text-align: center;
+}
+
+.conditionANDsubmit {
+    display: flex;
+    align-items:self-start;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.condition {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.submit-btn, .submit-btn-delete, .submit-btn button {
+    background-color: rgb(136,107,98);
+    color: wheat;
+    border-style: groove;
+    border: none;
+    float: right;
+    text-align: center;
+}
+button a {
+    text-decoration: none;
+    color: wheat;
+    cursor: pointer; 
+}
+button:hover {
+    background-color: white;
+    color: rgb(136,107,98);
+    border: 0.5px solid rgb(136,107,98);
+}

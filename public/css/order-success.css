@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+}
+#header {
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(136,107,98);
+    padding: 0.5em 1em;
+    color: wheat;
+}
+.shop-name {
+    text-align: center;
+    font-size: x-large;
+    font-weight: 600;
+}
+.title-bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-decoration: none;
+}
+.go-last-page {
+    font-size: medium;
+}
+.go-last-page a{
+    text-decoration: none;
+}
+.menu {
+    
+    text-align: center;
+    font-size: medium;
+}
+.go-shop-cart-img {
+    text-align: right;
+    /* float: right; */
+    
+}
+.go-shop-cart-img img {
+    height: 1.7em;
+    width: 1.7em;
+    color: wheat !important;
+}
+/* section */
+#section {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.695);
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+.success-order{
+    background-color: antiquewhite;
+    width: 50vw;
+    height: auto;
+    margin: 5rem auto 2rem auto;
+    text-align: center;
+    border: 0.5px solid grey;
+    font-size: large;
+}
+.success-order .success {
+    color: red;
+    font-size: xx-large;
+    font-weight: 600;
+    padding-top: 1rem;
+}
+.success-order .sign {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: xx-large;
+}
+.success-order .wait {
+    padding-bottom: 1rem;
+}
+.confirm {
+    width: 100%;
+    height: fit-content;
+    font-size: large;
+    font-weight: 600;
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    padding-top: 1rem;
+}
+.confirm a {
+    text-decoration: none;
+    color: rgba(29, 28, 28, 0.801);
+}
+.confirm .back-to-menu {
+    background-color: rgb(204, 190, 190);
+    height: 120%;
+}
+.confirm .go-to-pay {
+    background-color: rgb(240, 187, 88);
+    height: 120%;
+}

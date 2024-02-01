@@ -1,0 +1,35 @@
+#main {
+    margin: 0;
+    height:max-content;
+    width: 100%;
+}
+.main-section {  
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.content {
+    margin: 3rem;
+    width: 70%;
+    color: rgba(0, 0, 0, 0.705);
+}
+.paragraph {
+    float: left;
+    width: 100%;
+}
+.take-away-image {
+    width: 70vw;
+    height: fit-content;
+    display: inline-block;
+    align-items: center;
+    margin-bottom: 3rem; 
+}
+.take-away-image img {
+    max-width: 35rem;
+    max-height: 12rem;
+    margin: 1rem 1rem 1rem 0;
+}
+#footer {
+    position:fixed;
+    bottom: 0;
+}
